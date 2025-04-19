@@ -15,9 +15,23 @@ int main()
 	std::cout << "\n";
 
 	// Add 3 to the number entered
-	int finalResult = numEntered + 3;
+	
 	std::cout << "The number entered plus three equals: " << finalResult << "\n";
 
 	return 0;
+
+	int numEntered1 = 0;
+	int numEntered2 = 0;
+	int numEntered3 = 0;
+
+	std::cout << "Enter a whole number: ";
+	std::cin >> numEntered1;
+	std::cout << "Enter another whole number: ";
+	std::cin >> numEntered2;
+	std::cout << "Enter a third whole number: ";
+	std::cin >> numEntered3;
+	std::cout << "\n";
+	int finalResult = numEntered1 + numEntered2 + numEntered3 / 3;
+	std::cout << "The average of the three numbers is: " << finalResult << "\n";
 }
 
